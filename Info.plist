@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- ====================================
+         IDENTIFICAÇÃO DO APP
+         ==================================== -->
+    <key>CFBundleDisplayName</key>
+    <string>CircadiaCare</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>br.com.circadiacare.app</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <key>CFBundleName</key>
+    <string>CircadiaCare</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleDevelopmentRegion</key>
+    <string>pt-BR</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <!-- ====================================
+         DEPLOYMENT
+         ==================================== -->
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+
+    <!-- ====================================
+         ORIENTAÇÃO
+         ==================================== -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- ====================================
+         LAUNCH SCREEN (sem storyboard)
+         ==================================== -->
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>UIColorName</key>
+        <string>appBackground</string>
+        <key>UIImageName</key>
+        <string>LaunchLogo</string>
+        <key>UIImageRespectsSafeAreaInsets</key>
+        <true/>
+    </dict>
+
+    <!-- ====================================
+         APPEARANCE
+         ==================================== -->
+    <key>UIUserInterfaceStyle</key>
+    <string>Automatic</string>
+
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+
+    <!-- ====================================
+         HEALTHKIT — OBRIGATÓRIO
+         ==================================== -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>CircadiaCare lê seus dados de sono, frequência cardíaca e atividade física do Apple Health para calcular seu score de alinhamento circadiano e fornecer recomendações personalizadas.</string>
+
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>CircadiaCare pode salvar registros de sono no Apple Health para integração com outros apps de saúde.</string>
+
+    <!-- ====================================
+         NOTIFICAÇÕES
+         ==================================== -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+        <string>background-fetch</string>
+    </array>
+
+    <!-- ====================================
+         CLOUDKIT / ICLOUD
+         ==================================== -->
+    <key>NSUbiquitousContainers</key>
+    <dict>
+        <key>iCloud.br.com.circadiacare.app</key>
+        <dict>
+            <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+            <false/>
+            <key>NSUbiquitousContainerName</key>
+            <string>CircadiaCare</string>
+            <key>NSUbiquitousContainerSupportedFolderLevels</key>
+            <string>None</string>
+        </dict>
+    </dict>
+
+    <!-- ====================================
+         LOCALIZAÇÃO
+         ==================================== -->
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>pt-BR</string>
+        <string>en</string>
+    </array>
+
+    <!-- ====================================
+         URL SCHEMES (deeplink)
+         ==================================== -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>br.com.circadiacare.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>circadiacare</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- ====================================
+         ITMS — APP STORE
+         ==================================== -->
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+
+</dict>
+</plist>
