@@ -2,6 +2,8 @@
 // ViewModel para perfil do usuário e configurações
 
 import Foundation
+import Observation
+import SwiftData
 import OSLog
 
 private let logger = Logger(subsystem: "br.com.circadiacare", category: "ProfileVM")

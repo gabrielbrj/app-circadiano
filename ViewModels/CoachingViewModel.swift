@@ -2,6 +2,8 @@
 // ViewModel para recomendações e coaching circadiano
 
 import Foundation
+import Observation
+import SwiftData
 import UIKit
 import OSLog
 

@@ -2,6 +2,8 @@
 // ViewModel da tela principal com score e resumo do dia
 
 import Foundation
+import Observation
+import SwiftData
 import OSLog
 
 private let logger = Logger(subsystem: "br.com.circadiacare", category: "DashboardVM")

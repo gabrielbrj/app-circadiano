@@ -2,6 +2,7 @@
 // Serviço de geração de recomendações circadianas personalizadas
 
 import Foundation
+import SwiftData
 import OSLog
 
 private let logger = Logger(subsystem: "br.com.circadiacare", category: "Coaching")

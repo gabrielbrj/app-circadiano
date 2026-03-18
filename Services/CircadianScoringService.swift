@@ -2,6 +2,7 @@
 // Serviço de cálculo do Score de Alinhamento Circadiano
 
 import Foundation
+import SwiftData
 import OSLog
 
 private let logger = Logger(subsystem: "br.com.circadiacare", category: "Scoring")
