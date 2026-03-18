@@ -2,6 +2,7 @@
 // ViewModel para recomendações e coaching circadiano
 
 import Foundation
+import UIKit
 import OSLog
 
 private let logger = Logger(subsystem: "br.com.circadiacare", category: "CoachingVM")

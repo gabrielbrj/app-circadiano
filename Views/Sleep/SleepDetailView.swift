@@ -39,7 +39,7 @@ struct SleepDetailView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Dormiu")
-                        .font(.caption.uppercased())
+                        .font(.caption).textCase(.uppercase)
                         .foregroundStyle(Color.appSecondaryText)
                     Text(entry.bedtime.formatted(.dateTime.hour().minute()))
                         .font(.system(size: 28, weight: .bold, design: .rounded))
@@ -61,7 +61,7 @@ struct SleepDetailView: View {
 
                 VStack(alignment: .trailing, spacing: 4) {
                     Text("Acordou")
-                        .font(.caption.uppercased())
+                        .font(.caption).textCase(.uppercase)
                         .foregroundStyle(Color.appSecondaryText)
                     Text(entry.wakeTime.formatted(.dateTime.hour().minute()))
                         .font(.system(size: 28, weight: .bold, design: .rounded))

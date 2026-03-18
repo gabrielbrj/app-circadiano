@@ -2,6 +2,7 @@
 // Formulário de edição do perfil circadiano
 
 import SwiftUI
+import UIKit
 
 struct ProfileFormView: View {
 

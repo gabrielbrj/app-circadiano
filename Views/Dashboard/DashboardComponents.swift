@@ -15,7 +15,7 @@ struct CircadianScoreCard: View {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Score Circadiano")
-                        .font(.caption.uppercased())
+                        .font(.caption).textCase(.uppercase)
                         .foregroundStyle(Color.appSecondaryText)
                         .accessibilityLabel("Score de alinhamento circadiano de hoje")
 

@@ -2,6 +2,7 @@
 // Detalhe de uma recomendação circadiana com contexto científico
 
 import SwiftUI
+import UIKit
 
 struct CoachingDetailView: View {
 

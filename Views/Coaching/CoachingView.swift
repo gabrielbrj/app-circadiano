@@ -2,6 +2,7 @@
 // Tela de coaching circadiano com recomendações personalizadas
 
 import SwiftUI
+import UIKit
 import SwiftData
 
 struct CoachingView: View {

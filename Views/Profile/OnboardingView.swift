@@ -2,6 +2,7 @@
 // Tela de onboarding para novos usuários
 
 import SwiftUI
+import UIKit
 import SwiftData
 
 struct OnboardingView: View {

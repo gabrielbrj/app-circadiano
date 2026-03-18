@@ -2,6 +2,7 @@
 // Formulário de registro de sono com importação HealthKit
 
 import SwiftUI
+import UIKit
 
 struct SleepFormView: View {
 

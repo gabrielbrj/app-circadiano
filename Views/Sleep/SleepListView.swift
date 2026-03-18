@@ -2,6 +2,7 @@
 // Lista de registros de sono com histórico e estatísticas
 
 import SwiftUI
+import UIKit
 import SwiftData
 
 struct SleepListView: View {
@@ -140,7 +141,7 @@ struct SleepEntryRow: View {
         HStack(spacing: 16) {
             VStack(spacing: 4) {
                 Text(entry.bedtime.formatted(.dateTime.weekday(.abbreviated)))
-                    .font(.caption2.uppercased())
+                    .font(.caption2).textCase(.uppercase)
                     .foregroundStyle(Color.appSecondaryText)
                 Text(entry.bedtime.formatted(.dateTime.day()))
                     .font(.title3.bold())
